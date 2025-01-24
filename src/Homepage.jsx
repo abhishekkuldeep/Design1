@@ -1,28 +1,47 @@
 import React from 'react'
+import Button from './Button'
 
 function Homepage() {
   return (
-    <div className="bg-sky-400 min-h-screen">
-      <div className="flex justify-between px-10 py-5">
-        <div>
-          <p className="font-bold">HOME</p>
+    <>
+    <div className='w-screen h-screen bg-blue-400 py-10 px-16'>
+      <div className='h-fit py-4 px-7 text-white flex justify-between'>
+        <div className='w-3/5'>
+          <p className='font-medium pl-6'>HOME</p>
         </div>
-        <div className="flex space-x-5">
-          <p className="font-bold">ABOUT</p>
-          <p className="font-bold">RESOURCES</p>
-          <button className="bg-white px-6 py-2 rounded-md font-bold">JOIN US</button>
+        <div className='w-2/5 font-medium flex justify-around'>
+          <p>ABOUT</p>
+          <p>RESOURCES</p>
+          <p><Button message="About Us"/></p>
         </div>
       </div>
-      <div className="flex justify-center items-center h-screen">
-        <div className="flex flex-col space-y-5">
-          <h1 className="text-5xl font-bold">Text Box</h1>
-          <h1 className="text-5xl font-bold text-yellow-400">text box</h1>
-          <button className="bg-white px-6 py-2 rounded-md font-bold">JOIN US</button>
+
+      <div className='w-full h-5/8 flex flex-row'>
+        <div className='w-1/2 h-full bg-blue-400 py-6 pl-10 flex flex-col space-y-10 align-bottom'>
+        <h1 className='text-7xl text-white'>Text Box</h1>
+        <h1 className='text-5xl text-yellow-400'>Text Box</h1>
+        <h1><Button message="About Us"/></h1>
         </div>
-        <div className="w-96 h-96 bg-gray-800 ml-10"></div>
+
+        <div className='w-2/5 h-full border-b-2 border-white flex justify-end'>
+        <p className='w-75 h-75 bg-gray-800 pl-10'></p>
+        </div>
       </div>
-      <p className="text-center px-10 text-gray-800">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </div>
+
+      <div className='w-full pt-3 text-white px-8'>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga exercitationem magni, eligendi sapiente voluptas maiores nostrum at? Corrupti, vitae neque! Ducimus nemo, voluptatem, esse obcaecati magni laborum reprehenderit aspernatur placeat odio in earum modi eaque alias ea quam voluptatum officiis error quidem quas inventore commodi nesciunt odit. Quos cumque, doloribus nisi autem sit sapiente maiores, voluptatem quod praesentium corporis illum iusto laboriosam quibusdam voluptate blanditiis, saepe qui nesciunt ad voluptatum!</p>
+
+      </div>
+
+      <div className='w-full h-1/4 flex align-bottom justify-center mt-9'>
+        <p className='h-10 w-15 bg-zinc-400 rounded-t-full'></p>
+
+      </div>
+
+
+    </div> 
+    </>
+   
   )
 }
 
