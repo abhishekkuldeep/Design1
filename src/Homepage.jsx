@@ -34,7 +34,7 @@ function Homepage() {
       </div>
 
       <div className='w-full h-1/4 flex align-bottom justify-center mt-5'>
-        <p className='h-10 w-15 bg-zinc-400 rounded-t-full'></p>
+        <p className='h-10 w-20 bg-zinc-400 rounded-t-full'></p>
 
       </div>
 
