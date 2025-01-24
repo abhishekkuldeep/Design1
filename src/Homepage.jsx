@@ -5,7 +5,7 @@ function Homepage() {
   return (
     <>
     <div className='w-screen h-screen bg-blue-400 py-10 px-16'>
-      <div className='h-fit py-4 px-7 text-white flex justify-between'>
+      <div className='h-fit py-6 px-7 text-white flex justify-between'>
         <div className='w-3/5'>
           <p className='font-medium pl-6'>HOME</p>
         </div>
@@ -33,7 +33,7 @@ function Homepage() {
 
       </div>
 
-      <div className='w-full h-1/4 flex align-bottom justify-center mt-9'>
+      <div className='w-full h-1/4 flex align-bottom justify-center mt-5'>
         <p className='h-10 w-15 bg-zinc-400 rounded-t-full'></p>
 
       </div>
