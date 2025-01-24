@@ -1,5 +1,6 @@
 import Homepage from './Homepage'
 import Homepage2 from './Homepage2'
+import Homepage3 from './Homepage3'
 
 function App() {
 
@@ -7,6 +8,8 @@ function App() {
     <>
       <Homepage />
       <Homepage2/>
+      <Homepage3/>
+
     </>
   )
 }
