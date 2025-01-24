@@ -1,5 +1,5 @@
-import Heading from "./Heading"
-import Cards from "./Cards"
+import Heading from "./Components/Heading"
+import Cards from "./Components/Cards"
 
 function Homepage3() {
   return (
