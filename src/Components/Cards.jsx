@@ -1,21 +1,23 @@
 import Heading from "./Heading"
+import style from '../css_file/cards.module.css'
 
 function Cards() {
   return (
     <>
-    <div className="p-4 m-4">
-        <h1 className="text-2xl font-semibold">Intelligent Responses</h1>
-        <p className="font-extralight">Using Machine Learning, AI and NLP technology Our Talented Teams Develop Dynamic Solutions That</p>
+    <div className={style.main}>
+        <h2>Intelligent Responses</h2>
+        <p>Using Machine Learning, AI and NLP technology Our Talented Teams Develop Dynamic Solutions That</p>
 
-        <div className="p-2">
-            <Heading text="INTELLIGENT RESPONSES"/>
+        <div className={style.heading}>
+          <Heading text="INTELLIGENT RESPONSES"/>
         </div>
+        
 
         
-        <ul className="list-disc p-3">
-            <li className="p-2">Lorem, ipsum.</li>
-            <li className="p-2">Lorem, ipsum.</li>
-            <li className="p-2">Lorem, ipsum.</li>
+        <ul className={style["list-item"]}>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum.</li>
         </ul>
     </div>
     </>

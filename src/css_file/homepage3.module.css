@@ -1,0 +1,28 @@
+.heading{
+    margin-inline: 2rem;
+}
+
+.body{
+    width: 100%;
+    padding-inline: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.blank-space{
+    width: 30%;
+    height: 100vh;
+}
+
+.blocks{
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards{
+    flex-basis: 45%;
+    margin: 1.25rem;
+    background-color: var(--color-blue-200);
+}
