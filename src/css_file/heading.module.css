@@ -1,0 +1,9 @@
+.heading-txt{
+    margin-block: 4px;
+}
+
+.line{
+    width: 256px;
+    border-width: 1.5px;
+    border-color:#9f9fa9;
+}
