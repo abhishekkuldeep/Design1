@@ -1,0 +1,26 @@
+.main{
+    width:85%;
+    height: fit-content;
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-left: 3rem;
+    display: flex;
+}
+
+.serialNo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:24px;
+    font-weight: 400;
+}
