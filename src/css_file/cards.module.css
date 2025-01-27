@@ -1,10 +1,10 @@
 .main{
-    padding: 1rem;
-    margin: 1rem;
+    padding: 16px;
+    margin: 16px;
 }
 
 .main h2{
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 600;
 }
 
@@ -13,13 +13,13 @@
 }
 
 .heading{
-    padding: 0.5rem;   
+    padding: 8px;   
 }
 
-.list-item{
+.listItem{
     list-style-type: disc;
 }
 
-.list-item li{
-    padding: 0.5rem;
+.listLtem li{
+    padding: 8px;
 }

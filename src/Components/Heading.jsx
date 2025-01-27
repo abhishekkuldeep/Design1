@@ -4,8 +4,8 @@ function Heading({text}) {
   return (
     <>
     <div>
-    <h1 className={style["heading-txt"]}>{text}</h1>
-    <hr className={style["line"]} />
+    <h1 className={style.text}>{text}</h1>
+    <hr className={style.line} />
     </div>
     </>
   )

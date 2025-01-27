@@ -1,16 +1,16 @@
-import Homepage1 from './Homepage1'
-import Homepage2 from './Homepage2'
-import Homepage3 from './Homepage3'
-import Homepage4 from './Homepage4'
+import Hero from './Pages/Hero/Hero'
+import About from './Pages/About/About'
+import Service from './Pages/Service/Service'
+import Process from './Pages/Process/Process'
 
 function App() {
 
   return (
     <>
-      <Homepage1/>
-      <Homepage2/>
-      <Homepage3/>
-      <Homepage4/>
+      <Hero/>
+      <About/>
+      <Service/>
+      <Process/>
 
     </>
   )

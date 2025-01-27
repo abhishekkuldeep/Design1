@@ -1,5 +1,5 @@
-import DropdownMenu from "./Components/DropdownMenu"
-import style from './css_file/homepage4.module.css'
+import DropdownMenu from '../../Components/DropdownMenu'
+import style from '../Process/process.module.css'
 
 function Homepage4() {
   return (
@@ -10,7 +10,7 @@ function Homepage4() {
               <p>Our Process</p>
             </div>
 
-            <div className={style["drop-down"]}>
+            <div className={style.dropDown}>
               <DropdownMenu/>
               <DropdownMenu/>
               <DropdownMenu/>

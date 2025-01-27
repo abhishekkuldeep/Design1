@@ -1,8 +1,8 @@
-import Heading from "./Components/Heading"
-import Cards from "./Components/Cards"
-import style from './css_file/homepage3.module.css'
+import Heading from '../../Components/Heading'
+import Cards from '../../Components/Cards'
+import style from '../Service/service.module.css'
 
-function Homepage3() {
+function Service() {
   return (
     <>
     <div className={style.heading}>
@@ -10,7 +10,7 @@ function Homepage3() {
     </div>
 
     <div className={style.body}>
-      <div className={style["blank-space"]}></div>
+      <div className={style.blank}></div>
 
       <div className={style.blocks}>
         <div className={style.cards}><Cards/></div>
@@ -28,4 +28,4 @@ function Homepage3() {
   )
 }
 
-export default Homepage3
+export default Service

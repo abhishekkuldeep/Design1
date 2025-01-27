@@ -10,7 +10,7 @@
     height: 70%;
     width: 100%;
     padding-inline: 2rem;
-    background-color: var(--color-blue-200);
+    background-color: #bfdbfe;
     margin-top: 15%;
     margin-bottom: 15%;
     display: flex;
@@ -20,7 +20,7 @@
 .image{
     width: 50%;
     height: 100%;
-    background-image: url('../images/picture.jpg');
+    background-image: url('../../Assets/Images/picture.jpg');
     background-size: cover;
     position: relative;
 }
@@ -29,17 +29,15 @@
     bottom: 3rem;
     left: 2rem;
     position: absolute;
-    color: #fff;
+    color: #ffffff;
     font-size: 1.5rem;
 }
 
-.drop-down{
+.dropDown{
     height: 100%;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }

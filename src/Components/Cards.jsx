@@ -14,7 +14,7 @@ function Cards() {
         
 
         
-        <ul className={style["list-item"]}>
+        <ul className={style.listItem}>
             <li>Lorem, ipsum.</li>
             <li>Lorem, ipsum.</li>
             <li>Lorem, ipsum.</li>

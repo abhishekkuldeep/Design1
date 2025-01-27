@@ -2,7 +2,7 @@
     width: fit-content;
     height: fit-content;
     padding-inline: 12px;
-    background-color: white;
-    color: rgb(36, 182, 198);
-    border-radius:var(--radius-3xl);
+    background-color: #ffffff;
+    color: #24b6c6;
+    border-radius:24px;
 }
