@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import style from '../Css_file/dropdown.module.css'
+import style from '../Css_file/Dropdown.module.css'
 
 function DropdownMenu({number}) {
   const [menu,setMenu] = useState(false)

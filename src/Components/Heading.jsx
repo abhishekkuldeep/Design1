@@ -1,4 +1,4 @@
-import style from '../css_file/heading.module.css'
+import style from '../css_file/Heading.module.css'
 
 function Heading({text}) {
   return (

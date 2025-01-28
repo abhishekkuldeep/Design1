@@ -1,5 +1,5 @@
 import Heading from "./Heading"
-import style from '../css_file/cards.module.css'
+import style from '../css_file/Cards.module.css'
 
 function Cards() {
   return (
