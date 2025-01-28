@@ -2,6 +2,7 @@ import DropdownMenu from '../../Components/DropdownMenu'
 import style from '../Process/process.module.css'
 
 function Homepage4() {
+
   return (
     <>
         <div className={style.body}>
@@ -11,9 +12,10 @@ function Homepage4() {
             </div>
 
             <div className={style.dropDown}>
-              <DropdownMenu/>
-              <DropdownMenu/>
-              <DropdownMenu/>
+              <DropdownMenu number="01"/>
+              <DropdownMenu number="02"/>
+              <DropdownMenu number="03"/>
+
             </div>
 
           </div>

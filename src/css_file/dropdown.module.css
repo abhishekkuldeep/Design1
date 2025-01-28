@@ -1,26 +1,72 @@
 .main{
-    width:85%;
-    height: fit-content;
+    height: auto;
+    width: 80%;
     background-color: #ffffff;
-    padding: 2rem;
-    margin-left: 3rem;
-    display: flex;
+    margin-left: 2rem;
 }
 
-.serialNo{
-    width: 20%;
-    height: 100%;
+.header{
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+
+.serialNo{
+    width: 15%;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    font-size: large;
 }
 
 .title{
-    width: 80%;
-    height: 100%;
+    width: 85%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size:24px;
     font-weight: 400;
+    font-size: 2rem;
+}
+
+.body{
+    width: 100%;
+    height: auto;
+    padding-block: 1rem;
+}
+
+.body p{
+    font-weight: lighter;
+    font-size: medium;
+    padding-inline: 1rem;
+}
+
+.points{
+    width: 100%;
+    height: auto;
+    margin: 0.25rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.tickMark{
+    height:auto;
+    width: 15%;
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 100%;
+    background-color: #24b0c0;
+}
+
+.textContent{
+    height: auto;
+    width: 85%;
 }
