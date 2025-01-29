@@ -1,15 +1,52 @@
 .main{
-    width: 100%;
     height: 100vh;
-}
-
-.image{
     width: 100%;
-    height: 90%;
-    position: relative;
 }
 
-img{
-    width: auto;
-    height: 100%;
+.body{
+    margin-top: 10%;
+    width: 100%;
+    height: 80%;
+    background-image: url('../../Assets/Images/new.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts h1{
+    font-size: 52px;
+    color: #ffffff;
+}
+
+.texts h2{
+    font-size: 40px;
+    font-family: serif;
+    color: #dddd0a;
+}
+
+.texts p{
+    color: #ffffff;
+    text-align: justify;
+    width: 70%;
+    margin-top: 4rem;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    padding-inline: 4rem;
+}
+
+Button{
+    margin-inline: 2rem;
 }
