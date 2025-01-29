@@ -1,5 +1,5 @@
 import Heading from "../../Components/Heading"
-import style from './Partners.module.css'
+import style from './partners.module.css'
 import img1 from '../../Assets/Images/nike-logo.png'
 import img2 from '../../Assets/Images/mercedes-logo.jpeg'
 import img3 from '../../Assets/Images/puma-logo.png'

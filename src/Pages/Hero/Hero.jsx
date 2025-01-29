@@ -1,5 +1,5 @@
 import Button from "../../Components/Button"
-import style from './Hero.module.css'
+import style from './hero.module.css'
 
 
 function Hero() {

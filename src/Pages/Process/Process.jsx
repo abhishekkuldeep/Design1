@@ -1,5 +1,5 @@
 import DropdownMenu from '../../Components/DropdownMenu'
-import style from './Process.module.css'
+import style from './process.module.css'
 
 function Process() {
 
