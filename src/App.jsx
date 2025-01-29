@@ -4,6 +4,7 @@ import Service from './Pages/Service/Service'
 import Process from './Pages/Process/Process'
 import Partners from './Pages/Partners/Partners'
 import Articles from './Pages/Articles_and_News/Articles'
+import Info from './Pages/Info/Info'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Process/>
       <Partners/>
       <Articles/>
+      <Info/>
 
     </>
   )
