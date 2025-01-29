@@ -1,4 +1,4 @@
-import style from './about.module.css'
+import style from './About.module.css'
 import Heading from '../../Components/Heading'
 
 function Hero() {

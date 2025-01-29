@@ -1,0 +1,39 @@
+.main{
+    height: auto;
+    width: auto;
+    margin: 2rem;
+    background-color: #7d9c9a;
+}
+
+img{
+    height: 13rem;
+}
+
+.headline{
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 1.5rem;
+}
+
+.line{
+    width: 85%;
+    margin-left: 8%;
+}
+
+.main h2{
+    font-size: larger;
+    font-weight: 500;
+    position: relative;
+    left: 10%;
+    margin-top: 0.5rem;
+}
+
+.main h6{
+    width: 100%;
+    text-align: justify;
+    padding-inline: 1rem;
+    padding-block: 1rem;
+
+}

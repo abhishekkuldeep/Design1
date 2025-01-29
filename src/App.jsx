@@ -3,6 +3,7 @@ import About from './Pages/About/About'
 import Service from './Pages/Service/Service'
 import Process from './Pages/Process/Process'
 import Partners from './Pages/Partners/Partners'
+import Articles from './Pages/Articles_and_News/Articles'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Service/>
       <Process/>
       <Partners/>
+      <Articles/>
 
     </>
   )
