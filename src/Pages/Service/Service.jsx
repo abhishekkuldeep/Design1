@@ -1,6 +1,6 @@
 import Heading from '../../Components/Heading'
 import Cards from '../../Components/Cards'
-import style from '../service/service.module.css'
+import style from '../Service/service.module.css'
 
 function Service() {
   return (
