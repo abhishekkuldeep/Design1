@@ -1,7 +1,7 @@
 import DropdownMenu from '../../Components/DropdownMenu'
-import style from '../Process/process.module.css'
+import style from './Process.module.css'
 
-function Homepage4() {
+function Process() {
 
   return (
     <>
@@ -25,4 +25,4 @@ function Homepage4() {
   )
 }
 
-export default Homepage4
+export default Process

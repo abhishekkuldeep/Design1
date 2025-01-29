@@ -1,0 +1,53 @@
+.main{
+    height: 100vh;
+    width: 100%;
+}
+
+.main h2{
+    margin-top: 2rem;
+    margin-left: 3.5rem;
+    color: #9f9fa9;
+}
+
+.list{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brands{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 2px solid #aeaeb7;
+    border-bottom: 2px solid #aeaeb7;
+    padding-block: 0.75rem;
+}
+
+.list .brands:first-child{
+    border-bottom: none;
+}
+
+.list .brands:last-child{
+    border-top: none;
+}
+
+.brands p{
+    object-fit: contain;
+    margin: 0.5rem;
+
+}
+
+.brands img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
+}
+
+.brands h6{
+    height: auto;
+    margin: 0.5rem;
+}
