@@ -1,0 +1,24 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../../Assets/Images/new.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:end;
+    padding: 4rem;
+}
+
+
+.texts p:first-child{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.texts p:last-child{
+    color: rgb(237, 237, 50);
+    font-size: 30px;
+    font-family: serif;
+    font-style: italic;
+}
