@@ -1,5 +1,5 @@
 import style from './Minicards.module.css'
-import img from '../../Assets/Images/picture.jpg'
+import img from '../../../Assets/Images/picture.jpg'
 
 function Minicards() {
   return (

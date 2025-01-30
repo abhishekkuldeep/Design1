@@ -1,5 +1,5 @@
 import style from './Info.module.css'
-import Button from '../../Components/Button'
+import Button from '../../../Components/Button'
 
 function Info() {
   return (

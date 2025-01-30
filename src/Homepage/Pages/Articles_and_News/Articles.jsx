@@ -1,5 +1,5 @@
 import style from './Articles.module.css'
-import Heading from '../../Components/Heading'
+import Heading from '../../../Components/Heading'
 import Cards from './Minicards'
 
 function Articles() {

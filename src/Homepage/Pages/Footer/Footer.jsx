@@ -1,8 +1,8 @@
 import style from './Footer.module.css'
-import Heading from '../../Components/Heading'
-import img1 from '../../Assets/Images/x-logo.png'
-import img2 from '../../Assets/Images/in-logo.png'
-import img3 from '../../Assets/Images/ins-logo.png'
+import Heading from '../../../Components/Heading'
+import img1 from '../../../Assets/Images/x-logo.png'
+import img2 from '../../../Assets/Images/in-logo.png'
+import img3 from '../../../Assets/Images/ins-logo.png'
 
 function Footer() {
   return (

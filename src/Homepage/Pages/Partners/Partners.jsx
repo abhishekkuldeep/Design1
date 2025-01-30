@@ -1,8 +1,8 @@
-import Heading from "../../Components/Heading"
+import Heading from "../../../Components/Heading"
 import style from './Partners.module.css'
-import img1 from '../../Assets/Images/nike-logo.png'
-import img2 from '../../Assets/Images/mercedes-logo.jpeg'
-import img3 from '../../Assets/Images/puma-logo.png'
+import img1 from '../../../Assets/Images/nike-logo.png'
+import img2 from '../../../Assets/Images/mercedes-logo.jpeg'
+import img3 from '../../../Assets/Images/puma-logo.png'
 
 function Partners() {
   return (

@@ -1,5 +1,5 @@
 import style from './About.module.css'
-import Heading from '../../Components/Heading'
+import Heading from '../../../Components/Heading'
 
 function Hero() {
   return (
