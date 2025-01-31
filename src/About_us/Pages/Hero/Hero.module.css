@@ -1,0 +1,14 @@
+.main{
+    height: 100vh;
+    color: #70b6f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main p{
+    color: #70b6f0;
+    border-color: #70b6f0;
+}
+
+
