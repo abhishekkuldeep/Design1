@@ -1,0 +1,41 @@
+.main{
+    height: auto;
+    width: 100%;
+    padding-inline: 3rem;
+    display: flex;
+    flex-direction: row;
+    color: #515153;
+    padding-block: 2rem;
+
+}
+
+.left{
+    width: 50%;
+    height: 70vh;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.left img{
+    margin-block: 2rem;
+}
+
+.right{
+    width: 50%;
+    height: 70vh;
+    padding: 1rem;
+}
+
+.points{
+    padding-block: 2rem;
+    padding-inline: 1.5rem;
+}
+
+hr{
+    width: 96%;
+    margin-left: 2%;
+    margin-block: 2rem;
+    border-width: 1px;
+    border-color: #808080;
+
+}

@@ -15,7 +15,14 @@
 
 .sectionA{
     width: 60%;
+    display: flex;
+    flex-direction: row;
 }
+
+.sectionA p{
+    margin-inline: 2rem;
+}
+
 
 .sectionB{
     width: 40%;

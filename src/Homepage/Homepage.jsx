@@ -5,14 +5,13 @@ import Process from './Pages/Process/Process'
 import Partners from './Pages/Partners/Partners'
 import Articles from './Pages/Articles_and_News/Articles'
 import Info from './Pages/Info/Info'
-import Footer from '../Footer/Footer'
-// import Header from '../Header/Header'
+import Header from '../Header/Header'
 
 
 function Homepage() {
   return (
     <>
-        {/* <Header/> */}
+        <Header/>
         <Hero/>
         <About/>
         <Service/>
@@ -20,7 +19,6 @@ function Homepage() {
         <Partners/>
         <Articles/>
         <Info/>
-        <Footer/>
     </>
   )
 }

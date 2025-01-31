@@ -6,7 +6,7 @@ function Hero() {
   return (
     <>
     <div className={style.main}>
-        <div className={style.navBar}>  
+        {/* <div className={style.navBar}>  
             <div className={style.sectionA}>
                 <p>HOME</p>
             </div>
@@ -15,7 +15,7 @@ function Hero() {
                 <p>RESOURCES</p>
                 <p><Button message="About Us"/></p>
             </div>
-        </div>
+        </div> */}
 
         <div className={style.header}>
             <div className={style.subHeadA}>
