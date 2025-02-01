@@ -18,6 +18,8 @@
 
 .left img{
     margin-block: 2rem;
+    height: 20rem;
+    width: auto;
 }
 
 .right{
