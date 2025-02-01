@@ -9,18 +9,17 @@ function Header() {
             <div className={style.sectionA}>
               <p>
                 <NavLink to="/home">Home</NavLink>
-              </p>
-              <p>
-                <NavLink to="/service">Service Page</NavLink>
-              </p>
-
-
-              
+              </p>            
             </div>
+            
             <div className={style.sectionB}>
-                <p>ABOUT</p>
-                <p>RESOURCES</p>
-                <p><Button message="About Us"/></p>
+                <p>
+                  <NavLink to="/aboutUs">ABOUT</NavLink>
+                </p>
+                <p>
+                <NavLink to="/service">SERVICES</NavLink>
+                </p>
+                <p><Button message="JOIN US"/></p>
             </div>
         </div>
 
