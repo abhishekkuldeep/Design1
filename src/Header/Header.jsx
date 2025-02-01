@@ -8,7 +8,7 @@ function Header() {
      <div className={style.navBar}>  
             <div className={style.sectionA}>
               <p>
-                <NavLink to="/home">Home</NavLink>
+                <NavLink to="/">Home</NavLink>
               </p>            
             </div>
             
