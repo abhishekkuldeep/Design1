@@ -1,0 +1,25 @@
+.main{
+    padding: 16px;
+    margin: 16px;
+}
+
+.main h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.main p{
+    font-weight: 200;
+}
+
+.heading{
+    padding: 8px;   
+}
+
+.listItem{
+    list-style-type: disc;
+}
+
+.listLtem li{
+    padding: 8px;
+}
