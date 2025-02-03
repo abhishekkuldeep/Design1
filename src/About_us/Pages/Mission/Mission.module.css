@@ -1,0 +1,63 @@
+.main{
+    height: 110vh;
+    width: 100%;
+    background-color: #212121;
+    color: #ffffff;
+}
+
+.body{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #75c5e4;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    background-image: url('../../../Assets/Images/meet.png');
+    background-position:left;
+    background-size: cover;
+    position: relative;
+}
+
+.left p{
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
+    position: absolute;
+    font-size: 2rem;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.right h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-block: 2rem;
+}
+
+.bottom{
+    height: 30vh;
+    width: 100%;
+    background-color: #4aaed6;
+}
+
+.bottom p{
+    width: 50%;
+    height: 100%;
+    font-size: 2.2rem;
+    font-weight:400;
+    position: relative;
+    top: 2rem;
+    left: 1.5rem;
+}

@@ -1,0 +1,36 @@
+.main{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-block: 1rem;
+    color: #808080;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    background-image: url('../../../Assets/Images/meet.png');
+    background-position:left;
+    background-size: cover;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.right h1{
+    font-size: 2rem;
+    border-bottom: 2px solid #808080;
+}
+
+.right h2{
+    font-weight: 500;
+    padding: 2rem;
+    width: 80%;
+    margin-left: 4rem;
+}

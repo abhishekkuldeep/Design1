@@ -1,0 +1,29 @@
+.main{
+    height: auto;
+    width: 19rem;
+    margin: 0.6rem;
+}
+
+.image{
+    width: 100%;
+    height: 18rem;
+    background-image: url('../../../Assets/Images/meet.png');
+    opacity: 90%;
+}
+
+.texts h1{
+    width: 100%;
+    border-bottom: 1px solid #808080;
+}
+
+.texts h2{
+    font-size: 2rem;
+    padding-block: 0.8rem;
+}
+
+.texts h3{
+    width: 100%;
+    font-size: small;
+    color: #848383;
+
+}
