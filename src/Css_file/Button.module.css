@@ -1,8 +1,14 @@
 .btn{
-    width: fit-content;
-    height: fit-content;
-    padding-inline: 12px;
+    width: 139px;
+    height: 38px;
+    color: #ffffff;
+    border-radius: 40px;
+    color: #679ECB;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 15.81px;
+    letter-spacing: -2%;
     background-color: #ffffff;
-    color: #24b6c6;
-    border-radius:24px;
 }
+

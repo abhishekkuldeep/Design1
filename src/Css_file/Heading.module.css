@@ -1,10 +1,15 @@
-.text{
-    margin-block: 4px;
+.texts{
+    width: auto;
+    height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 15.92px;
+    letter-spacing: -2%;
+    color: #656565;
 }
 
 .line{
     width: 256px;
-    border-width: 1.5px;
-    border-color:#9f9fa9;
+    border: 1px solid #1E1E1E33
 }

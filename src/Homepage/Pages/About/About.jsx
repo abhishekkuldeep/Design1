@@ -4,34 +4,27 @@ import Heading from '../../../Components/Heading'
 function Hero() {
   return (
     <>
+
     <div className={style.main}>
-      
 
-    <div className={style.circle}>
-        <p></p>
+    <div className={style.heading}>
+      <Heading text="ABOUT US"/>
+    </div>
+    <div className={style.midText}>
+      <p>Lorem Ipsum is simply dummy text</p>
     </div>
 
-    <div className={style.body}>
-        <div className={style.leftPart}>
-          <div className={style.section1}>
-              <Heading text="ABOUT US"/>
-          </div>
-
-          <div className={style.section2}>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-
-        </div>
-        <div className={style.rightPart}>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ullam magni blanditiis nesciunt fugiat consequatur laudantium hic architecto facilis dolorem officia saepe nemo, impedit porro qui corporis quaerat soluta ducimus perferendis assumenda voluptate magnam incidunt fuga. Autem quisquam inventore quis.</h1>
-
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta maiores consectetur molestias nesciunt accusantium sapiente aut aperiam quasi libero laudantium corrupti reiciendis officia harum consequuntur molestiae sit, ab laborum, eos beatae dolore sed, dicta nobis sint! Totam tempora, excepturi, iure voluptates facere fuga distinctio a dicta sed temporibus voluptas aliquam?</h2>
-
-        <p>About Us</p>
-
-        </div>
+    <div className={style.textPara}>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+        
+        <span className={style.subText}>
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          
+        </span>
+      </p>
 
     </div>
+
     </div>
     </>
 

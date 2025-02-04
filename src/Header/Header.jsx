@@ -6,21 +6,10 @@ function Header() {
   return (
     <>
      <div className={style.navBar}>  
-            <div className={style.sectionA}>
-              <p>
-                <NavLink to="/">Home</NavLink>
-              </p>            
-            </div>
-            
-            <div className={style.sectionB}>
-                <p>
-                  <NavLink to="/aboutUs">ABOUT</NavLink>
-                </p>
-                <p>
-                <NavLink to="/service">SERVICES</NavLink>
-                </p>
-                <p><Button message="JOIN US"/></p>
-            </div>
+        <p className={style.home}> <NavLink to="/">HOME</NavLink> </p>
+        <p className={style.about}> <NavLink to="/aboutUs">ABOUT</NavLink> </p>
+        <p className={style.resources}> <NavLink to="/service">SERVICE</NavLink> </p>
+        <p className={style.btn}><Button message="JOIN US" /></p>
         </div>
 
     </>

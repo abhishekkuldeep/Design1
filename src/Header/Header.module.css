@@ -1,31 +1,51 @@
 .navBar{
-    margin-inline: 2rem;
-    margin-top: 2rem;
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 28px;
-    color: #ffffff;
-    font-weight: 500;
     position: absolute;
-    z-index: 1000;
+    width: 1092px;
+    height: 38px;
+    top: 51px;
+    border-radius: 40px;
+    border: 1px;
+    color: #ffffff;
 }
 
-.sectionA{
-    width: 60%;
-    display: flex;
-    flex-direction: row;
+.navBar p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19.9px;
+    letter-spacing: -1%;
 }
 
-.sectionA p{
-    margin-inline: 2rem;
+.home{
+    position: absolute;
+    width: 59px;
+    height: 20px;
+    top: 60px;
+    left: 94px;
+}
+
+.about{
+    position: absolute;
+    width: 67px;
+    height: 20px;
+    top: 60px;
+    left: 777px;
+}
+
+.resources{
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    top: 60px;
+    left: 891px;
+}
+
+.btn{
+    position: absolute;
+    top: 51px;
+    left: 1047px;
+    
 }
 
 
-.sectionB{
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
-}
+
