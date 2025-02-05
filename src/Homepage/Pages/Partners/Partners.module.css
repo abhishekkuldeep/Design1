@@ -1,12 +1,14 @@
 .main{
+    position: absolute;
+    top: 3060px;
     height: 100vh;
     width: 100%;
 }
 
 .main h2{
-    margin-top: 2rem;
-    margin-left: 3.5rem;
-    color: #9f9fa9;
+    position: absolute;
+
+    left: 39px;
 }
 
 .list{

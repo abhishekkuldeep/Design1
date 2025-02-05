@@ -6,7 +6,20 @@ function Process() {
   return (
     <>
         <div className={style.body}>
-          <div className={style.main}>
+          <div className={style.image}>
+            <p>Our Process</p>
+          </div>
+
+          <div className={style.dropDown}>
+            <DropdownMenu number="01" />
+            <DropdownMenu number="02" />
+            <DropdownMenu number="03" />
+
+          </div>
+
+
+
+          {/* <div className={style.main}>
             <div className={style.image}>
               <p>Our Process</p>
             </div>
@@ -18,7 +31,7 @@ function Process() {
 
             </div>
 
-          </div>
+          </div> */}
 
         </div>
     </>

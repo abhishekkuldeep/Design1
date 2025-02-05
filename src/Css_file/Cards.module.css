@@ -1,25 +1,76 @@
 .main{
-    padding: 16px;
-    margin: 16px;
+    position: relative;
+    height: 381px;
+    width: 404px;
+    background: #a5d2f626;
 }
 
-.main h2{
-    font-size: 24px;
-    font-weight: 600;
+.headText{
+    position: absolute;
+    top: 43px;
+    left: 25.59px;
+    width: fit-content;
+    height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 31.84px;
+    letter-spacing: -2%;
+    color: #656565;
 }
 
-.main p{
-    font-weight: 200;
+.text{
+    width: 337px;
+    height: 36px;
+    position: absolute;
+    top: 95px;
+    left: 26px;
+    font-family: Switzer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.48px;
+    letter-spacing: -2%;
+    color: #a1a1a1;
 }
 
 .heading{
-    padding: 8px;   
+    position: absolute;
+    width: 323px;
+    height: 22px;
+    left: 26px;
+    top: 183px;
+    border-bottom: 1px solid #65656533;
 }
 
-.listItem{
+.heading p{
+    width: fit-content;
+    height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 15.92px;
+    letter-spacing: -2%;
+    color: #656565;
+    text-transform: uppercase;
+
+}
+
+
+.list{
+    position: absolute;
+    top: 233px;
+    left: 40px;
+    gap: 41px;
+    width: 101px;
+    height: 105px;
     list-style-type: disc;
 }
 
-.listLtem li{
-    padding: 8px;
+.list li{
+    font-family: Switzer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.12px;
+    letter-spacing: -2%;
+    color: #656565;
+    margin-block: 12px;
 }

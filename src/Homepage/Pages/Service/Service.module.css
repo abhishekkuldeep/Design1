@@ -1,28 +1,30 @@
 .heading{
-    margin-inline: 2rem;
+    position: absolute;
+    top: 1362px;
+    left: 40px;
 }
 
-.body{
-    width: 100%;
-    padding-inline: 2rem;
-    display: flex;
-    flex-direction: row;
+.card1{
+    position: absolute;
+    top: 1383px;
+    left: 386px;
 }
 
-.blank{
-    width: 30%;
-    height: 100vh;
+.card2{
+    position: absolute;
+    top: 1383px;
+    left: 833px;
 }
 
-.blocks{
-    width: 70%;
-    height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
+.card3{
+    position: absolute;
+    top: 1806px;
+    left: 386px;
 }
 
-.cards{
-    flex-basis: 45%;
-    margin: 1.25rem;
-    background-color: #bfdbfe   ;
+.card4{
+    position: absolute;
+    top: 1806px;
+    left: 833px;
 }
+
