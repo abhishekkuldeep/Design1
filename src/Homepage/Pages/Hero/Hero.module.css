@@ -1,86 +1,212 @@
 .main{
-    width: 1280px;
-    height: 740px;
+    width: 160rem;
+    height: 80rem;
     background-color: #70b6f0;
     box-sizing: border-box;
 }
 
-.main p{
-    position: absolute;
+.body{
+    position: relative;
+    top: 10rem;
+    width: 84%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    margin-inline: 8%;
+}
+
+.textContent{
+    width: 50%;
+    height: 100%;
+}
+
+.boxArea{
+    width: 50%;
+    height: 100%;
 }
 
 .textboxA{
     width: auto;
-    height: 96px;
-    top: 216px;
-    left: 123px;
+    height: 8rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 96px;
-    line-height: 95.52px;
+    font-size: 7rem;
+    line-height: 6.8rem;
     letter-spacing: -1%;
     color: #ffffff;
+    position: relative;
+    top: 30%;
 }
 
 .textboxB{
     width: auto;
     height: 125px;
-    top: 312px;
-    left: 143px;
     font-family:Boska;
     font-weight: 500;
-    font-size: 96px;
-    line-height: 124.8px;
+    font-size: 7rem;
+    line-height: 7.8rem;
     letter-spacing: -2%;
     color: #FFDF34;
     font-style: italic;
+    position: relative;
+    top: 35%;
 }
 
 .box{
-    position: absolute;
-    width: 400px;
-    height: 356px;
-    top: 148px;
-    left: 748px;
-    border-radius: 4px;
+    width: 25rem;
+    height: 22.25rem;
     background: #1E1E1E;
+    position: absolute;
+    right: 4%;
+    bottom: 18%;
+
 }
 
 .line{
-    position: absolute;
     width: 517px;
-    top: 524px;
-    left: 640px;
     border: 1px solid #ffffff;
+    position: absolute;
+    bottom: 14%;
+    right: 3%;
 }
 
 .textPara{
-    position: absolute;
-    width: 1034px;
-    height: 64px;
-    top: 560px;
-    left: 123px;
+    position: relative;
+    top: 10rem;
+    width: 135rem;
+    height: fit-content;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 15.92px;
+    font-size: 2rem;
+    line-height: 1.8rem;
     letter-spacing: -1%;
     color: #ffffff;
+    margin-inline: 8rem;
 }
 
 .ellipse{
-    position: absolute;
-    top: 690px;
-    left: 590px;
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5rem;
     background-color: #D9D9D9;
+    position: relative;
+    left: 50%;
+    top: 20rem;
 }
 
 .btn{
-    position: absolute;
-    top: 466px;
-    left: 143px;
+    position: relative;
+    top: 40%;
+}
+
+@media (max-width:90rem)
+{
+    .main{
+        width: 90rem;
+        height: 73rem;
+    }
+
+    .body{
+        top: 12rem;
+    }
+
+    .textboxA{
+        font-size: 5rem;
+        line-height: 4.8rem;
+        top:25%;
+    }
+
+    .textboxB{
+        font-size: 5rem;
+        line-height: 4.8rem;
+        top: 30%;
+    }
+
+    .btn{
+        top: 35%;
+    }
+
+    .box{
+        right: 5%;
+        bottom: 10%;
+    }
+
+    .line{
+        right: 4%;
+        bottom: 6%;
+    }
+
+    .textPara{
+        width: 80rem;
+        left: 0rem;
+        top: 14rem;
+        font-size: 1.3rem;
+        line-height: 1.2rem;
+    }
+
+    .ellipse{
+        height: 7rem;
+        width: 7rem;
+        top: 20rem;
+    }
+
+}
+
+@media (max-width:64rem)
+{
+    .main{
+        width: 64rem;
+        height: 54rem;
+    }
+
+    .body{
+        top: 8rem;
+        height: 50%;
+    }
+
+    .textboxA{
+        font-size: 4.5rem;
+        line-height: 4.3rem;
+        top:23%;
+    }
+
+    .textboxB{
+        font-size: 4.5rem;
+        line-height: 4.3rem;
+        top: 16%;
+    }
+
+    .btn{
+        top: 20%;
+    }
+
+    .box{
+        right: 5%;
+        bottom: 10%;
+        width: 23rem;
+        height: 20.25rem;
+
+    }
+
+    .line{
+        width: 28rem;
+        right: 4%;
+        bottom: 6%;
+    }
+
+    .textPara{
+        width: 54rem;
+        left: -2.6rem;
+        top: 10rem;
+        font-size: 1.3rem;
+        line-height: 1.2rem;
+    }
+
+    .ellipse{
+        height: 7rem;
+        width: 7rem;
+        top: 15rem;
+    }
+
 }
 

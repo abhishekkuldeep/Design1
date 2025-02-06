@@ -43,10 +43,17 @@
 
 }
 
-.brands img{
-    height: 2rem;
-    width: 2rem;
-    border-radius: 2rem;
+.brands p{    
+    height: 45.5px;
+    width: 45.5px;
+    border-width: 2px;
+}
+
+.img1{
+    background-image: url('../../../Assets/Images/brand1.png');
+    background-position: center;
+    background-size: cover;
+
 }
 
 .brands h6{

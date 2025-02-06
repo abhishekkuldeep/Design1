@@ -14,7 +14,7 @@ function Homepage() {
         <About/>
         <Service/>
         <Process/>
-        <Partners/>
+       {/* <Partners/> */}
         {/*<Articles/>
         <Info/> */}
     </>

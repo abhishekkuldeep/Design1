@@ -1,30 +1,76 @@
+.main{
+   width: 160rem;
+   height: 96rem;
+   padding-inline: 4rem;
+}
+
+.body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
 .heading{
-    position: absolute;
-    top: 1362px;
-    left: 40px;
+    width: 24rem;
+    height: 1.5rem;
+    color: #656565;
 }
 
-.card1{
-    position: absolute;
-    top: 1383px;
-    left: 386px;
+.blank{
+    width: 30%;
 }
 
-.card2{
-    position: absolute;
-    top: 1383px;
-    left: 833px;
+
+.blocks{
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.card3{
-    position: absolute;
-    top: 1806px;
-    left: 386px;
+.cards{
+    flex-basis: 45%;
+    margin: 1.25rem;
 }
 
-.card4{
-    position: absolute;
-    top: 1806px;
-    left: 833px;
+
+
+@media (max-width:90rem){
+    .main{
+        width: 90rem;
+        height: 72rem;
+    }
+
+    .blank{
+        width: 20%;
+    }
+
+    .blocks{
+        width: 80%;
+    }
 }
 
+@media (max-width:64rem){
+    .main{
+        width: 64rem;
+        height: 62rem;
+    }
+
+    .body{
+        margin-top: 0.5rem;
+        flex-direction: column;
+    }
+
+    .blank{
+        width: 0%;
+    }
+
+    .blocks{
+        width: 100%;
+    }
+
+    .cards{
+        flex-basis: 45%;
+        margin: 0.8rem;
+    }
+}

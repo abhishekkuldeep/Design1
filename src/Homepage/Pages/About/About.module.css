@@ -1,71 +1,130 @@
+.main{
+    margin-top: 9rem;
+    width: 160rem;
+    height: 46rem;
+    display: flex;
+    flex-direction: row;
+    padding-inline: 4rem;
+    justify-content: space-between;
+}
+
 
 .heading{
-    position: absolute;
-    top:859px;
-    left: 40px;
-    width: 256px;
-    height: 21px;
+    width: 24rem;
+    height: 1.5rem;
     color: #656565;
 }
 
 .midText{
-    width: 263px;
+    width: 28rem;
     height: 84px;
-    position: absolute;
-    top: 848px;
-    left: 386px;
     font-family: boska;
     font-weight: 500;
     font-style: italic;
-    font-size: 32px;
-    line-height: 41.6px;
+    font-size: 3.5rem;
+    line-height: 3.4rem;
     letter-spacing: -1%;
     color: #656565;
 }
 
 .textPara{
+    width: 56rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 22.01px;
+    font-size: 2rem;
+    line-height: 2rem;
     letter-spacing: -1%;
-    width: 480px;
-    height: 286px;
-    position: absolute;
-    top: 858px;
-    left: 757px;
     color: #656565;
 }
 
 .subText{
     position: relative;
-    top: 10px;
+    top: 1.2rem;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 22.01px;
     letter-spacing: -0.01em;
     font-style: normal;
-    color: #65656565;
+    color: #65656585;
 }
 
 .about{
-    position: absolute;
-    top: 1192px;
-    left: 754px;
-    width: auto;
-    height: 21px;
-    border-bottom: 1px solid #70B6F0;
-    padding-block-end: 1rem;
-
+    position: relative;
+    top: 6rem;
+    width: fit-content;
+    height: 2rem;
+    border-bottom: 2px solid #70B6F0;
 }
 
 .link{
-    position: relative;
-    top: -5px;
     color: #70B6F0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 15.81px;
+    font-size: 2rem;
+    line-height: 1.8rem;
     letter-spacing: -2%;
 }
+
+@media (max-width:90rem)
+{
+    .main{
+        width: 90rem;
+        height: 32rem;
+        margin-top: 7rem;
+    }
+
+    .heading{
+        width: 16rem;
+    }
+
+    .midText{
+        width:24rem;
+        font-size: 3rem;
+        line-height: 2.8rem;
+    }
+
+    .textPara{
+        width: 36rem;
+        font-size: 1.5rem;
+        line-height: 1.4rem;
+    }
+
+    .link{
+        font-size: 1.5rem;
+        line-height: 1.4rem;
+    }
+
+}
+
+@media (max-width:64rem)
+{
+    .main{
+        width: 64rem;
+        height: 34rem;
+        padding-inline: 2.4rem;
+    }
+
+    .heading{
+        width: 12rem;
+    }
+
+    .midText{
+        width:20rem;
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+
+    .textPara{
+        width: 24rem;
+        font-size: 1.2rem;
+        line-height: 1.1rem;
+    }
+
+    .about{
+        top: 4rem;
+    }
+
+    .link{
+        font-size: 1.3rem;
+        line-height: 1.2rem;
+    }
+
+}
+

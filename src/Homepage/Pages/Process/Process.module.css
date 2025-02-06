@@ -1,5 +1,4 @@
 .body{
-    position: absolute;
     width: 1294px;
     height: 496px;
     top: 2303px;
@@ -18,7 +17,7 @@
 }
 
 .image p{
-    position: absolute;
+
     width: fit-content;
     height: 32px;
     top: 395px;
@@ -33,7 +32,7 @@
 }
 
 .dropDown{
-    position: absolute;
+
     left: 664px;
     top: 82px;
     z-index: 100000;

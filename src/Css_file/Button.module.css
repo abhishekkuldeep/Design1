@@ -1,14 +1,34 @@
 .btn{
-    width: 139px;
-    height: 38px;
+    width: 11rem;
+    height: 3.5rem;
     color: #ffffff;
     border-radius: 40px;
     color: #679ECB;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 15.81px;
+    font-size: 1.5rem;
+    line-height: 1.4rem;
     letter-spacing: -2%;
     background-color: #ffffff;
 }
+
+
+@media (max-width:90rem){
+    .btn{
+        font-size: 1.3rem;
+        line-height: 1.2rem;
+        width: 9rem;
+        height: 3rem;
+    }
+}
+
+@media (max-width:64rem){
+    .btn{
+        font-size: 1.1rem;
+        line-height: 1rem;
+        width: 7rem;
+        height: 2.5rem;
+    }
+}
+
 

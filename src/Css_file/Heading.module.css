@@ -1,15 +1,37 @@
 .texts{
     width: auto;
-    height: 16px;
+    height: 2.2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 15.92px;
+    font-size: 2rem;
+    line-height: 1.9rem;
     letter-spacing: -2%;
     color: #656565;
 }
 
 .line{
-    width: 256px;
+    width: 24rem;
     border: 1px solid #1E1E1E33
+}
+
+@media (max-width:90rem){
+    .texts{
+        height: 1.8rem;
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+    .line{
+        width: 16rem;
+    }
+}
+
+@media (max-width:64rem){
+    .texts{
+        height: 1.8rem;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+    .line{
+        width: 11rem;
+    }
 }
