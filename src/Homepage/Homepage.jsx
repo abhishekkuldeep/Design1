@@ -10,13 +10,13 @@ import Info from './Pages/Info/Info'
 function Homepage() {
   return (
     <>
-        <Hero/>
-        <About/>
-        <Service/>
-        <Process/>
-       {/* <Partners/> */}
-        {/*<Articles/>
-        <Info/> */}
+      <Hero/>
+      <About/>
+      <Service/>
+      <Process/>
+      <Partners/>
+      <Articles/>
+      <Info/>
     </>
   )
 }

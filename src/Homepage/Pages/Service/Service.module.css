@@ -50,10 +50,12 @@
     }
 }
 
-@media (max-width:64rem){
+@media (max-width:64rem)
+{
     .main{
         width: 64rem;
         height: 62rem;
+        padding-inline: 2.4rem;
     }
 
     .body{

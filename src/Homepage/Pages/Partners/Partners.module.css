@@ -1,18 +1,15 @@
 .main{
-    position: absolute;
-    top: 3060px;
-    height: 100vh;
-    width: 100%;
+    width: 160rem;
+    height:70rem ;
+    margin-top: 25rem;
 }
 
-.main h2{
-    position: absolute;
-
-    left: 39px;
+.heading{
+    padding-left: 4rem;
 }
 
 .list{
-    height: 90%;
+    height: 62rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -21,12 +18,14 @@
 
 .brands{
     width: 100%;
+    height: 11rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-top: 2px solid #aeaeb7;
-    border-bottom: 2px solid #aeaeb7;
-    padding-block: 0.75rem;
+    align-items: center;
+    border-top: 1px solid #aeaeb7;
+    border-bottom: 1px solid #aeaeb7;
+
 }
 
 .list .brands:first-child{
@@ -38,25 +37,90 @@
 }
 
 .brands p{
-    object-fit: contain;
-    margin: 0.5rem;
-
-}
-
-.brands p{    
-    height: 45.5px;
-    width: 45.5px;
-    border-width: 2px;
+    height: 6rem;
+    width: 6rem;
+    filter: invert(1) brightness(0);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .img1{
-    background-image: url('../../../Assets/Images/brand1.png');
-    background-position: center;
-    background-size: cover;
+    background-image: url('../../../Assets/Images/brand1.png');    
+}
 
+.img2{
+    background-image: url('../../../Assets/Images/brand2.png');
+}
+
+.img3{
+    background-image: url('../../../Assets/Images/brand3.png');
 }
 
 .brands h6{
-    height: auto;
-    margin: 0.5rem;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    line-height: 2.4rem;
+    letter-spacing: -0.02em;
+    padding-inline: 2rem;
+}
+
+@media (max-width:90rem)
+{
+    .main{
+        width: 90rem;
+        height: 66rem;
+    }
+
+    .list{
+        height: 60rem;
+    }
+
+    .brands{
+        height: 10rem;
+    }
+
+    .brands p{
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .brands h6{
+        font-size: 2.3rem;
+        line-height: 2.1rem;
+        padding-inline: 1rem;
+    }
+}
+
+@media (max-width:64rem)
+{
+    .main{
+        width: 64rem;
+        height: 46rem;
+        margin-top: 16rem;
+    }
+
+    .heading{
+        padding-inline: 2.4rem;
+    }
+
+    .list{
+        height: 44rem;
+    }
+
+    .brands{
+        height: 8rem;
+    }
+
+    .brands p{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    .brands h6{
+        font-size: 1.8rem;
+        line-height: 1.7rem;
+        padding-inline: 1rem;
+    }
 }

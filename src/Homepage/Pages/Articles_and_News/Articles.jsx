@@ -6,19 +6,16 @@ function Articles() {
   return (
     <>
         <div className={style.main}>
-            <p>
+            <div className={style.heading}>
                 <Heading text="ARTICLES AND NEWS"/>
-            </p>
-            <div className={style.body}>
-                <div className={style.boxes}>
+            </div>
+            <div className={style.boxes}>
                     <Cards/>
                     <Cards/>
                     <Cards/>
-                </div>
-                <h3>
-                    More
-                </h3>
-
+            </div>
+            <div className={style.more}>
+                <p>MORE</p>
             </div>
 
         </div>

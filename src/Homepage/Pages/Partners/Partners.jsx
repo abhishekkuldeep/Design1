@@ -5,9 +5,9 @@ function Partners() {
   return (
     <>
       <div className={style.main}>
-        <h2>
+        <div className={style.heading}>
           <Heading text="OUR PARTNERS"/>
-        </h2>
+        </div>
         <div className={style.list}>
 
           <div className={style.brands}>
