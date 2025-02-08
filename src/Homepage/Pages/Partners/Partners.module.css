@@ -1,5 +1,5 @@
 .main{
-    width: 160rem;
+    /* width: 100%; */
     height:70rem ;
     margin-top: 25rem;
 }
@@ -10,14 +10,14 @@
 
 .list{
     height: 62rem;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .brands{
-    width: 100%;
+    /* width: 100%; */
     height: 11rem;
     display: flex;
     flex-direction: row;

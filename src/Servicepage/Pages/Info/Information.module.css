@@ -1,6 +1,5 @@
 .main{
-    height: 70vh;
-    width: 100%;
+    background-color: #ffffff;
     padding: 3rem;
     display: flex;
     align-items: center;
@@ -8,8 +7,40 @@
 }
 
 .main p{
-    width: 80%;
+    padding-block: 10rem;
+    width: 86rem;
     height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #656565;    
+}
 
-    
+@media (max-width:90rem){
+    .main p{
+        padding-block: 8rem;
+        width: 62rem;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+}
+
+@media (max-width:64rem){
+
+    .main p{
+        padding-block: 5rem;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        width: 50rem;
+    }
+}
+
+@media (max-width:768px){
+    .main p{
+        padding-block: 3rem;
+        width: 36rem;
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
 }

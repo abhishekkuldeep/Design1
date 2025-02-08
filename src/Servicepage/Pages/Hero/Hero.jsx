@@ -5,8 +5,8 @@ function Hero() {
     <>
     <div className={style.main}>
         <div className={style.texts}>
-            <p>Text Box</p>
-            <p>Text Box</p>
+            <p className={style.firstText}>Text Box</p>
+            <p className={style.lastText}>Text Box</p>
 
         </div>
 

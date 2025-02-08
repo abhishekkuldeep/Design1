@@ -1,6 +1,6 @@
 import style from './Hero.module.css'
 import img1 from '../../../Assets/Images/semicircle-logo.png'
-import img2 from '../../../Assets/Images/meet.png'
+import img2 from '../../../Assets/Images/meet.jpeg'
 
 function Hero() {
   return (

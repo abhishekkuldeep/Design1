@@ -1,6 +1,6 @@
 .main{
     margin-top: 9rem;
-    width: 160rem;
+    /* width: 100%; */
     height: 46rem;
     display: flex;
     flex-direction: row;

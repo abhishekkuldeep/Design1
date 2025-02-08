@@ -12,11 +12,15 @@
     background-color: #ffffff;
 }
 
+.btn:hover{
+    cursor: pointer;
+}
+
 
 @media (max-width:90rem){
     .btn{
-        font-size: 1.3rem;
-        line-height: 1.2rem;
+        font-size: 1.2rem;
+        line-height: 1.1rem;
         width: 9rem;
         height: 3rem;
     }
@@ -24,10 +28,10 @@
 
 @media (max-width:64rem){
     .btn{
-        font-size: 1.1rem;
-        line-height: 1rem;
-        width: 7rem;
-        height: 2.5rem;
+        font-size: 0.9rem;
+        line-height: 0.8rem;
+        width: 6rem;
+        height: 2.2rem;
     }
 }
 

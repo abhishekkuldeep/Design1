@@ -1,13 +1,13 @@
 .navBar{
     position: absolute;
     top: 6rem;
-    width: 160rem;
+    width: 100%;
     height: 4rem;
     color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-inline: 8rem;
+    padding-inline: 10rem;
 }
 
 .navBar p{
@@ -38,38 +38,53 @@
 
 @media (max-width:90rem){
     .navBar{
-        width: 90rem;
         top: 4rem;
+        padding-inline: 6rem;
     }
 
     .navBar p{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         line-height: 1.6rem;
     }
 
     .right{
         width: 50%;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 }
 
 
 @media (max-width:64rem){
     .navBar{
-        width: 64rem;
-        top: 4rem;
-        padding-inline:3rem
+        top: 3rem;
+        padding-inline:3rem;
     }
 
     .navBar p{
-        font-size: 1.4rem;
-        line-height: 1.3rem;
+        font-size: 1.1rem;
+        line-height: 1rem;
     }
 
     .right{
         width: 50%;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
+}
+
+@media (max-width:768px){
+    .navBar{
+        top: 2rem;
+        height: 2rem;
+    }
+
+    .navBar p{
+        scale: 0.7;
+    }
+    
+    .right{
+        justify-content: space-evenly;
+    }
+
 }
 
 

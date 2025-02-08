@@ -1,25 +1,70 @@
 .main{
-    height: 100vh;
-    width: 100%;
-    background-image: url('../../../Assets/Images/meet.jpeg');
-    position: relative;
-    background-size: cover;
+    height: 60rem;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../../../Assets/Images/meet.jpeg');
+    background-size: 115%;
     background-position: center;
+    background-repeat: no-repeat;
     display: flex;
-    align-items:end;
-    padding: 4rem;
-    z-index: -1;
+    align-items: end;
+    padding-inline: 4rem;
+
 }
 
+.texts {
+    height: fit-content;
+    margin-left: 6rem;
+    margin-bottom: 8rem;
+}
 
-.texts p:first-child{
+.firstText{
     color: #ffffff;
-    font-size: 40px;
+    font-size: 6.5rem;
+    line-height: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.texts p:last-child{
-    color: rgb(237, 237, 50);
-    font-size: 30px;
-    font-family: serif;
+.lastText{
+    color: #ffdf34;
+    font-size: 6rem;
+    line-height: 6.5rem;
+    font-family: Boska;
     font-style: italic;
+}
+
+@media (max-width:90rem){
+    .main{
+        height: 40rem;
+        padding-inline: 1rem;
+    }
+    .texts{
+        scale: 0.6;
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:64rem){
+    .main{
+        height: 35rem;
+        padding-inline: 2rem;
+    }
+
+    .texts{
+        scale: 0.5;
+        margin-left: -1rem;
+        margin-bottom: 1rem;        
+    }
+}
+
+@media (max-width:768px){
+    .main{
+        height: 28rem;
+        padding-inline: 1rem;
+    }
+
+    .texts{
+        scale: 0.3;
+        margin-left: -2.3rem;
+        margin-bottom: -1rem;
+    }
 }

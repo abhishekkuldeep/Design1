@@ -1,43 +1,129 @@
 .main{
-    height: auto;
-    width: 100%;
-    padding-inline: 3rem;
+    margin-top: 4rem;
+    margin-inline: 4rem;
     display: flex;
     flex-direction: row;
-    color: #515153;
-    padding-block: 2rem;
-
+    font-family: Helvetica;
+    color: #656565;
+    border-bottom: 2px solid #1E1E1E33;
 }
 
 .left{
-    width: 50%;
-    height: 70vh;
-    font-size: 32px;
-    font-weight: lighter;
+    padding: 3rem;
+    width: 45%;    
 }
 
-.left img{
-    margin-block: 2rem;
-    height: 20rem;
-    width: auto;
+.headline{
+    font-size: 4.8rem;
+    line-height: 4.7rem;
+    font-weight: 400;
 }
+
+.image{
+    height: 28rem;
+    width: 28rem;
+    background-image: url('../../../Assets/Images/dot-logo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4rem;
+}
+
 
 .right{
-    width: 50%;
-    height: 70vh;
-    padding: 1rem;
+    width: 55%;
+    font-size: 2.4rem;
+    padding: 3rem
 }
+
 
 .points{
-    padding-block: 2rem;
-    padding-inline: 1.5rem;
+    margin-top: 2.4rem;
+    margin-left: 2.2rem;
+    list-style-type: disc;
+    padding-left: 0.4rem;
 }
 
-hr{
-    width: 96%;
-    margin-left: 2%;
-    margin-block: 2rem;
-    border-width: 1px;
-    border-color: #808080;
+.points li{
+    margin-left: 0.4rem;
+    margin-block: 1rem;
+}
 
+
+@media (max-width:90rem){
+    .main{
+        margin-top: 3rem;
+        margin-inline: 2rem;
+    }
+
+    .left{
+        padding: 2rem;
+    }
+
+    .headline{
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+
+    .image{
+        height: 19.6rem;
+        width: 19.6rem;
+        margin-top: 2rem;
+    }
+
+    .right{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+
+
+    .points li{
+        padding-block: 0.8rem;
+    }
+}
+
+@media (max-width:64rem){
+
+    .headline{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .image{
+        height: 15rem;
+        width: 15rem;
+        margin-top: 3rem;
+    }
+
+    .right{
+        font-size: 1rem;
+        line-height: 1.3rem;
+        padding: 2rem;
+    }
+
+    .points{
+        margin-top: 1rem;
+        margin-left: 1.2rem;
+    }
+
+    .points li{
+        padding-block: 0.6rem;
+    }
+}
+
+@media (max-width:768px){
+    
+    .headline{
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+    }
+
+    .right{
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+
+    .right li{
+        padding-block: 0.4rem;
+    }
 }

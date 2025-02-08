@@ -4,7 +4,7 @@ function Information() {
   return (
     <>
     <div className={style.main}>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius magni sunt, non voluptatem reiciendis, aspernatur quia minus laboriosam libero sed mollitia? Harum sequi pariatur magnam dolores inventore minima dolorem iusto. Nam autem delectus minima. Quaerat dolores ratione distinctio laboriosam nulla. Necessitatibus dolorum delectus itaque voluptatem non minus, alias temporibus dolores nemo harum laboriosam architecto aperiam et odio tenetur quod fuga in repellat accusamus voluptates rem voluptas incidunt consequatur! Rem doloremque atque beatae laborum nihil excepturi perferendis vitae similique quos delectus.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
     </div>
     </>
   )
