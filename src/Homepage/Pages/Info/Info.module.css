@@ -1,10 +1,8 @@
 .main{
-    /* width: 100%; */
-    height: 80rem;
+    height: 64rem;
 }
 
 .body{
-    width: 160rem;
     height: 64rem;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),url('../../../Assets/Images/meet.jpeg');
     position: relative;
@@ -81,11 +79,9 @@
 @media (max-width:90rem)
 {
     .main{
-        width: 90rem;
-        height: 60rem;
+        height: 48rem;
     }
     .body{
-        width: 90rem;
         height: 48rem;
     }
 
@@ -122,11 +118,9 @@
 @media (max-width:64rem)
 {
     .main{
-        width: 64rem;
-        height: 38rem;
+        height: 32rem;
     }
     .body{
-        width: 64rem;
         height: 32rem;
     }
 
@@ -157,6 +151,46 @@
         line-height: 0.7rem;
         width: 6rem;
         height: 1.6rem;
+
+    }
+}
+
+@media (max-width:768px)
+{
+    .main{
+        height: 28rem;
+    }
+    .body{
+        height: 28rem;
+    }
+
+    .texts h1{
+        font-size: 2.5rem;
+        line-height: 2.4rem;
+    }
+
+    .texts h2{
+        font-size: 2.2rem;
+        line-height: 2rem;
+    }
+
+    .bodyText{
+        width: 35rem;
+        font-size: 0.6rem;
+        line-height: 0.9rem;
+        text-align: center;
+    }
+
+    .button{
+        height: 1.4rem;
+        width: 15rem;
+    }
+
+    .button p{
+        font-size: 0.6rem;
+        line-height: 0.5rem;
+        width: 6rem;
+        height: 1.4rem;
 
     }
 }

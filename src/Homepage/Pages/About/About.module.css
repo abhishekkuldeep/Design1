@@ -1,7 +1,20 @@
+.ellipse{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.shape{
+    height: 5rem;
+    width: 10rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    background-color: #D9D9D9;
+}
+
 .main{
+    margin-block-end: 10rem;
     margin-top: 9rem;
-    /* width: 100%; */
-    height: 46rem;
     display: flex;
     flex-direction: row;
     padding-inline: 4rem;
@@ -10,14 +23,11 @@
 
 
 .heading{
-    width: 24rem;
-    height: 1.5rem;
-    color: #656565;
+    width: 20%;
 }
 
 .midText{
-    width: 28rem;
-    height: 84px;
+    width: 20%;
     font-family: boska;
     font-weight: 500;
     font-style: italic;
@@ -27,13 +37,16 @@
     color: #656565;
 }
 
+.lastSec{
+    width: 40%;
+}
+
 .textPara{
-    width: 56rem;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 2rem;
     line-height: 2rem;
-    letter-spacing: -1%;
     color: #656565;
 }
 
@@ -64,61 +77,38 @@
 
 @media (max-width:90rem)
 {
+    .shape{
+        height: 4rem;
+        width: 8rem;
+        border-bottom-left-radius: 4rem;
+        border-bottom-right-radius: 4rem;
+    }
+
     .main{
-        width: 90rem;
-        height: 32rem;
-        margin-top: 7rem;
+        margin-top: 6rem;
+        padding-inline: 3rem;
+        margin-block-end: 8rem;
+
     }
 
     .heading{
-        width: 16rem;
+        width: 20%;
     }
 
     .midText{
-        width:24rem;
-        font-size: 3rem;
-        line-height: 2.8rem;
+        width:22%;
+        font-size: 2.8rem;
+        line-height: 2.7rem;
     }
 
     .textPara{
-        width: 36rem;
-        font-size: 1.5rem;
-        line-height: 1.4rem;
-    }
-
-    .link{
-        font-size: 1.5rem;
-        line-height: 1.4rem;
-    }
-
-}
-
-@media (max-width:64rem)
-{
-    .main{
-        width: 64rem;
-        height: 30rem;
-        padding-inline: 2.4rem;
-    }
-
-    .heading{
-        width: 12rem;
-    }
-
-    .midText{
-        width:20rem;
-        font-size: 2.5rem;
-        line-height: 2.8rem;
-    }
-
-    .textPara{
-        width: 24rem;
         font-size: 1.2rem;
-        line-height: 1.1rem;
+        line-height: 1.3rem;
     }
 
     .about{
-        top: 4rem;
+        top: 3rem;
+        height: 1.7rem;
     }
 
     .link{
@@ -128,3 +118,82 @@
 
 }
 
+@media (max-width:64rem)
+{
+    .shape{
+        height: 3rem;
+        width: 6rem;
+        border-bottom-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+    }
+    .main{
+        margin-top: 5rem;
+        padding-inline: 2rem;
+        margin-block-end: 6rem;
+    }
+
+    .heading{
+        width: 20%;
+    }
+
+    .midText{
+        font-size: 2.1rem;
+        line-height: 2rem;
+    }
+
+    .textPara{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .about{
+        top: 2.5rem;
+        height: 1.6rem;
+    }
+
+    .link{
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+    }
+
+}
+
+@media (max-width:768px)
+{
+    .shape{
+        height: 3rem;
+        width: 6rem;
+        border-bottom-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+    }
+    .main{
+        padding-inline: 1rem;
+        margin-top: 4rem;
+    }
+
+    .heading{
+        width: 20%;
+    }
+
+    .midText{
+        width: 25%;
+        font-size: 1.8rem;
+        line-height: 1.9rem;
+    }
+
+    .textPara{
+        font-size: 0.8rem;
+        line-height: 0.9rem;
+    }
+
+    .about{
+        top: 2.1rem;
+        height: 1.5rem;
+    }
+
+    .link{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+}

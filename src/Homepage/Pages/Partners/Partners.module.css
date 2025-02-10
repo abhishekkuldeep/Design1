@@ -69,8 +69,11 @@
 @media (max-width:90rem)
 {
     .main{
-        width: 90rem;
         height: 66rem;
+    }
+
+    .heading{
+        padding-inline: 3rem;
     }
 
     .list{
@@ -96,13 +99,12 @@
 @media (max-width:64rem)
 {
     .main{
-        width: 64rem;
         height: 46rem;
         margin-top: 16rem;
     }
 
     .heading{
-        padding-inline: 2.4rem;
+        padding-inline: 2rem;
     }
 
     .list{
@@ -121,6 +123,37 @@
     .brands h6{
         font-size: 1.8rem;
         line-height: 1.7rem;
+        padding-inline: 1rem;
+    }
+}
+
+@media (max-width:64rem)
+{
+    .main{
+        height: 40rem;
+        margin-top: 10rem;
+    }
+
+    .heading{
+        padding-inline: 1rem;
+    }
+
+    .list{
+        height: 32rem;
+    }
+
+    .brands{
+        height: 5rem;
+    }
+
+    .brands p{
+        height: 3.2rem;
+        width: 3.2rem;
+    }
+
+    .brands h6{
+        font-size: 1.5rem;
+        line-height: 1.4rem;
         padding-inline: 1rem;
     }
 }

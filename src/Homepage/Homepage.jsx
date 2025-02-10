@@ -15,9 +15,9 @@ function Homepage() {
       <Hero/>
       <About/>
       <Service/>
-      <Process/>
+      {/* <Process/>   */}
       <Partners/>
-      <Articles/>
+      {/* <Articles/> */}
       <Info/>
     </>
   )

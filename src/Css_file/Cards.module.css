@@ -137,6 +137,7 @@
         width: 22rem;
         font-size: 1.1rem;
         line-height: 1rem;
+        left: 1.5rem;
     }
 
     .heading{
@@ -165,3 +166,51 @@
 
 }
 
+
+@media (max-width:768px){
+    .main{
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .headText{
+        top: 1.6rem;
+        left: 1rem;
+        font-size: 1.9rem;
+        line-height: 1.8rem;
+    }
+
+    .text{
+        width: 18rem;
+        top: 0.5rem;
+        left: 1rem;
+        font-size: 1rem;
+        line-height: 0.9rem;
+    }
+
+    .heading{
+        width: 18rem;
+        height: 1.5rem;
+        left: 1rem;
+        top: 2.5rem;
+
+    }
+
+    .heading p{
+        height: 2rem;
+        font-size: 1.2rem;
+        line-height: 1.1rem;
+        padding-left: 0.5rem;
+    }
+
+    .list{
+        top: 3.5rem;
+        left: 2rem;
+    }
+    
+    .list li{
+        font-size: 1rem;
+        line-height: 2.5rem;    
+    }
+
+}

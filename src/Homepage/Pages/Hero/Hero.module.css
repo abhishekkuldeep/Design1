@@ -1,29 +1,19 @@
 .main{
-    /* width: 160rem; */
-    /* width:100%; */
-    height: 80rem;
     background-color: #70b6f0;
-    box-sizing: border-box;
 }
-
 .body{
-    position: relative;
-    top: 10rem;
-    width: 84%;
-    height: 60%;
+    padding-top: 10rem;
+    min-height: 55rem;
     display: flex;
     flex-direction: row;
-    margin-inline: 8%;
+    margin-inline: 8rem;
 }
 
 .textContent{
     width: 50%;
     height: 100%;
-}
-
-.boxArea{
-    width: 50%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .textboxA{
@@ -36,7 +26,7 @@
     letter-spacing: -1%;
     color: #ffffff;
     position: relative;
-    top: 30%;
+    top: 10rem;
 }
 
 .textboxB{
@@ -50,164 +40,225 @@
     color: #FFDF34;
     font-style: italic;
     position: relative;
-    top: 35%;
-}
-
-.box{
-    width: 25rem;
-    height: 22.25rem;
-    background: #1E1E1E;
-    position: absolute;
-    right: 4%;
-    bottom: 18%;
-
-}
-
-.line{
-    width: 517px;
-    border: 1px solid #ffffff;
-    position: absolute;
-    bottom: 14%;
-    right: 3%;
-}
-
-.textPara{
-    position: relative;
-    top: 10rem;
-    width: 135rem;
-    height: fit-content;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 1.8rem;
-    letter-spacing: -1%;
-    color: #ffffff;
-    margin-inline: 8rem;
-}
-
-.ellipse{
-    height: 10rem;
-    width: 10rem;
-    border-radius: 5rem;
-    background-color: #D9D9D9;
-    position: relative;
-    left: 50%;
-    top: 20rem;
+    top: 12rem;
 }
 
 .btn{
     position: relative;
-    top: 40%;
+    top: 15rem;
 }
 
-@media (max-width:90rem)
-{
-    .main{
-        width: 90rem;
-        height: 73rem;
+.boxArea{
+    width: 50%;
+    position: relative;
+}
+
+.box{
+    width: 33rem;
+    height: 30rem;
+    border-radius: 5px;
+    background: #1E1E1E;
+    position: absolute;
+    bottom: 2.2rem;
+    right: 1.7rem;
+}
+
+.line{
+    width: 50rem;
+    border: 1px solid #ffffff;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.textPara{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.textPara p{
+    width: 80%;
+    
+}
+
+.ellipse{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.shape{
+    height: 5rem;
+    width: 10rem;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    background-color: #D9D9D9;
+    
+}
+
+
+@media(max-width:90rem){
+    .body{
+        padding-top: 4rem;
+        min-height: 35rem;
+        margin-inline: 6rem;
     }
 
-    .body{
+    .textContent{
+        height: auto;
+    }
+
+    .textboxA{
+        font-size: 5rem;
+        line-height: 4.9rem;
+        top: 10rem;
+    }
+    
+    .textboxB{
+        font-size: 5rem;
+        line-height: 4.8rem;
+        top: 10rem;
+    }
+
+    .btn{
         top: 12rem;
     }
 
-    .textboxA{
-        font-size: 5rem;
-        line-height: 4.8rem;
-        top:25%;
-    }
-
-    .textboxB{
-        font-size: 5rem;
-        line-height: 4.8rem;
-        top: 30%;
-    }
-
-    .btn{
-        top: 35%;
-    }
-
     .box{
-        right: 5%;
-        bottom: 10%;
-    }
-
-    .line{
-        right: 4%;
-        bottom: 6%;
-    }
-
-    .textPara{
-        width: 80rem;
-        left: 0rem;
-        top: 14rem;
-        font-size: 1.3rem;
-        line-height: 1.2rem;
-    }
-
-    .ellipse{
-        height: 7rem;
-        width: 7rem;
-        top: 20rem;
-    }
-
-}
-
-@media (max-width:64rem)
-{
-    .main{
-        width: 64rem;
-        height: 54rem;
-    }
-
-    .body{
-        top: 8rem;
-        height: 50%;
-    }
-
-    .textboxA{
-        font-size: 4.5rem;
-        line-height: 4.3rem;
-        top:23%;
-    }
-
-    .textboxB{
-        font-size: 4.5rem;
-        line-height: 4.3rem;
-        top: 16%;
-    }
-
-    .btn{
-        top: 20%;
-    }
-
-    .box{
-        right: 5%;
-        bottom: 10%;
-        width: 23rem;
-        height: 20.25rem;
-
+        height: 18rem;
+        width: 20rem;
     }
 
     .line{
         width: 28rem;
-        right: 4%;
-        bottom: 6%;
     }
 
     .textPara{
-        width: 54rem;
-        left: -2.6rem;
-        top: 10rem;
-        font-size: 1.3rem;
-        line-height: 1.2rem;
+        margin-top: 1.2rem;
+        font-size: 1.5rem;
+        line-height: 1.4rem;
     }
 
     .ellipse{
-        height: 7rem;
-        width: 7rem;
-        top: 15rem;
+        margin-top: 2.5rem;
+    }
+
+    .shape{
+        height: 4rem;
+        width: 8rem;
+        border-top-left-radius: 4rem;
+        border-top-right-radius: 4rem;
     }
 
 }
 
+
+@media(max-width:64rem){
+    .body{
+        padding-top: 1rem;
+        min-height: 25rem;
+        margin-inline: 4rem;
+    }
+
+    .textboxA{
+        font-size: 3.5rem;
+        line-height:3.4rem;
+        top: 10rem;
+    }
+    
+    .textboxB{
+        font-size: 3.5rem;
+        line-height: 3.4rem;
+        top: 7rem;
+    }
+
+    .btn{
+        top: 5rem;
+    }
+
+    .box{
+        height: 15rem;
+        width: 17rem;
+        bottom: 2rem;
+    }
+
+    .line{
+        width: 24rem;
+    }
+
+    .textPara{
+        margin-top: 1.4rem;
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+    }
+
+    .ellipse{
+        margin-top: 2.5rem;
+    }
+
+    .shape{
+        height: 3rem;
+        width: 6rem;
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+    }
+}
+
+
+@media(max-width:768px){
+    .body{
+        padding-top: 1rem;
+        min-height: 25rem;
+        margin-inline: 2rem;
+    }
+
+    .textboxA{
+        font-size: 3rem;
+        line-height:2.9rem;
+        top: 10rem;
+    }
+    
+    .textboxB{
+        font-size: 3rem;
+        line-height: 2.9rem;
+        top: 6rem;
+    }
+
+    .btn{
+        top: 3rem;
+    }
+
+    .box{
+        height: 13rem;
+        width: 15rem;
+        bottom: 2rem;
+    }
+
+    .line{
+        width: 22rem;
+    }
+
+    .textPara{
+        margin-top: 1.4rem;
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    .ellipse{
+        margin-top: 2.5rem;
+    }
+
+    .shape{
+        height: 3rem;
+        width: 6rem;
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+    }
+}
