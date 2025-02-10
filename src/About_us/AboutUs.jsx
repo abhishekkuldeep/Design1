@@ -10,11 +10,11 @@ function AboutUs() {
     <Header/>
     <Hero/>
     <Mission/>
-    {/* <Info/>
     <Info/>
     <Info/>
     <Info/>
-    <Team/> */}
+    <Info/>
+    <Team/>
 
     </>
   )

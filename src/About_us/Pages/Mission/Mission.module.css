@@ -1,3 +1,6 @@
+.main{
+    margin-block-end: 3rem;
+}
 
 .poster img{
     width: 100%;
@@ -97,6 +100,10 @@
 }
 
 @media (max-width:90rem){
+    .main{
+        margin-block-end: 2rem;
+    }
+
     .poster img{
         height: 35rem;
     }
@@ -139,6 +146,9 @@
 
 
 @media (max-width:64rem){
+    .main{
+        margin-block-end: 1.5rem;
+    }
     .poster img{
         height: 25rem;
     }
@@ -181,6 +191,10 @@
 
 
 @media (max-width:768px){
+    .main{
+        margin-block-end: 1rem;
+    }
+
     .poster img{
         height: 18rem;
     }
