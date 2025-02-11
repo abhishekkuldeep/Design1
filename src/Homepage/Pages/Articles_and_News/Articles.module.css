@@ -10,22 +10,22 @@
 
 .boxes{
     margin-top: 4rem;
-    height: 54rem;
-    width: 160rem;
+    height: fit-content;
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .more{
-    width: 160rem;
+    border-width: 2px;
     height: 2.5rem;
 }
 
 .more p{
     position: absolute;
-    left: 150rem;
+    left: 90%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 2rem;
@@ -39,21 +39,14 @@
 @media (max-width:90rem)
 {
     .main{
-        width: 90rem;
         height: 60rem;
     }
 
     .boxes{
-        width: 90rem;
-        height: 40rem;
         justify-content: space-between;
     }
-    .more{
-        width: 90rem;
-    }
-
     .more p{
-        left: 86rem;
+        left: 86%;
     }
 }
 
@@ -67,17 +60,17 @@
 
     .boxes{
         width: 64rem;
-        height: 26rem;
+        /* height: 26rem; */
         justify-content: space-between;
     }
     .more{
-        width: 64rem;
+        /* width: 64rem; */
     }
 
     .more p{
         font-size: 1.3rem;
         height: 2rem;
         width: 4rem;
-        left: 60rem;
+        /* left: 60rem; */
     }
 }

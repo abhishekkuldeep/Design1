@@ -1,5 +1,5 @@
 .main{
-    height: 44rem;
+    height: fit-content;
     width: 42rem;
     margin: 2rem;
     background: #a5d2f626;
@@ -15,7 +15,6 @@
 
 .content{
     width : 100%;
-    height: 21rem;
     display: flex;
     flex-direction: column;
     padding: 2rem; 
@@ -38,12 +37,13 @@
 
 .response{
     font-size: 3.5rem;
-    line-height: 8rem;
+    line-height: 3.4rem;
+    margin-block: 2.5rem;
 }
 
 .text{
     width: 100%;
-    height: 5rem;
+    height: fit-content;
     color: #a1a1a1;
 }
 
@@ -54,12 +54,19 @@
     font-weight: 400;
 }
 
+@media (max-width:125rem){
+    .response{
+        font-size: 3.2rem;
+        line-height: 3.1rem;
+        margin-block: 2.5rem;
+    }
+}
+
 
 @media (max-width:90rem)
 {
     .main{
-        width: 26rem;
-        height: 30rem;
+        width: 28rem;
     }
 
     .image{
@@ -67,22 +74,23 @@
     }
 
     .content{
-        height: 17rem;
         padding: 1.5rem;
     }
 
     .headline{
+        font-size: 1rem;
         line-height: 1.4rem;
     }
 
     .response{
-        font-size: 2.5rem;
-        line-height: 5rem;
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+        margin-block: 2.2rem;
     }
 
     .text p{
-        font-size: 1rem;
-        line-height: 1.2rem;
+        font-size: 0.9rem;
+        line-height: 1rem;
     }
 }
 
@@ -90,7 +98,6 @@
 {
     .main{
         width: 26rem;
-        height: 21rem;
     }
 
     .image{
@@ -98,7 +105,6 @@
     }
 
     .content{
-        height: 14rem;
         padding: 0.8rem;
     }
 
@@ -108,12 +114,44 @@
     }
 
     .response{
-        font-size: 1.5rem;
-        line-height: 3rem;
+        font-size: 1.7rem;
+        line-height: 1.8rem;
+        margin-block: 1.8rem;
     }
 
     .text p{
+        font-size: 0.6rem;
+        line-height: 0.9rem;
+    }
+}
+
+@media (max-width:768px)
+{
+    .main{
+        width: 20rem;
+    }
+
+    .image{
+        height: 10rem;
+    }
+
+    .content{
+        padding: 0.8rem;
+    }
+
+    .headline{
         font-size: 0.7rem;
-        line-height: 1rem;
+        height: 1.5rem;
+    }
+
+    .response{
+        font-size: 1.7rem;
+        line-height: 1.8rem;
+        margin-block: 1.8rem;
+    }
+
+    .text p{
+        font-size: 0.6rem;
+        line-height: 0.9rem;
     }
 }

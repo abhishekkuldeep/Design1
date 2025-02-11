@@ -1,7 +1,6 @@
 .main{
-    /* width: 100%; */
     height:70rem ;
-    margin-top: 25rem;
+    margin-top: 18rem;
 }
 
 .heading{
@@ -10,14 +9,12 @@
 
 .list{
     height: 62rem;
-    /* width: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .brands{
-    /* width: 100%; */
     height: 11rem;
     display: flex;
     flex-direction: row;
@@ -70,6 +67,7 @@
 {
     .main{
         height: 66rem;
+        margin-top: 12rem;
     }
 
     .heading{
@@ -100,7 +98,7 @@
 {
     .main{
         height: 46rem;
-        margin-top: 16rem;
+        margin-top: 8rem;
     }
 
     .heading{
@@ -127,11 +125,11 @@
     }
 }
 
-@media (max-width:64rem)
+@media (max-width:768px)
 {
     .main{
-        height: 40rem;
-        margin-top: 10rem;
+        height: 38rem;
+        margin-top: 6rem;
     }
 
     .heading{
