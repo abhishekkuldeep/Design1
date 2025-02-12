@@ -50,13 +50,13 @@
 
 @media (max-width:90rem){
     .navBar{
-        top: 4rem;
+        top: 3rem;
         padding-inline: 6rem;
     }
 
     .navBar p{
-        font-size: 1.7rem;
-        line-height: 1.6rem;
+        font-size: 1.6rem;
+        line-height: 1.5rem;
     }
 
 }
@@ -64,25 +64,25 @@
 
 @media (max-width:64rem){
     .navBar{
-        top: 3rem;
+        top: 2rem;
         padding-inline:3rem;
     }
 
     .navBar p{
-        font-size: 1.1rem;
-        line-height: 1rem;
+        font-size: 0.9rem;
+        line-height: 0.9rem;
     }
 
 }
 
 @media (max-width:768px){
     .navBar{
-        top: 2rem;
+        top: 1.5rem;
         height: 2rem;
     }
 
     .navBar p{
-        scale: 0.7;
+        scale: 0.9;
     }
 
 

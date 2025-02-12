@@ -1,9 +1,37 @@
 import style from './Minicards.module.css'
+import img from '../../../Assets/Images/meet.jpeg'
 
 function Minicards() {
   return (
     <>
+
     <div className={style.main}>
+      <div className={style.poster}>
+        <img src={img} alt="" />
+      </div>
+
+      <div className={style.content}>
+        <div className={style.headline}>
+          <p>ARTICLES</p>
+          <p>2 MIN</p>
+        </div>
+
+        <div className={style.headText}>
+          <p>Intelligent Responses</p>
+        </div>
+
+        <div className={style.para}>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, cumque expedita repellendus ducimus libero error cum voluptates illo nemo iure laboriosam aliquid vitae minima id. Perspiciatis, molestias! Cumque.</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    {/* <div className={style.main}>
       <div className={style.image}> </div>
 
       <div className={style.content}>
@@ -23,7 +51,7 @@ function Minicards() {
 
       </div>
 
-    </div>
+    </div> */}
     </>
 
   )

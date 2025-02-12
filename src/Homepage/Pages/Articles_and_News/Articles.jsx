@@ -13,6 +13,7 @@ function Articles() {
                     <Cards/>
                     <Cards/>
                     <Cards/>
+                    <div className={style.lastCard}><Cards/> </div>
             </div>
             <div className={style.more}>
                 <p>MORE</p>

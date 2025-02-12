@@ -1,76 +1,92 @@
 .main{
-    height: 75rem;
-    width: 100%;
-    color: #ffffff;
     padding-inline: 4rem;
-    display: flex;
-    flex-direction: column;
+    margin-block: 3rem;
 }
 
 
 .boxes{
-    margin-top: 4rem;
-    height: fit-content;
+    margin-block: 3rem;
     display: flex;
     flex-direction: row;
-    align-items: center;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 .more{
-    border-width: 2px;
-    height: 2.5rem;
+    font-size: 3rem;
+    line-height: 2.9rem;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
 
 .more p{
-    position: absolute;
+    position: relative;
+    width: fit-content;
+    height: 3.5rem;
     left: 90%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 2rem;
-    line-height: 1.9rem;
-    height: 2.5rem;
-    width: 6rem;
     color: #70b6f0;
     border-bottom: 3px solid #70b6f0;
+
 }
 
-@media (max-width:90rem)
-{
-    .main{
-        height: 60rem;
-    }
+.lastCard{
+    display: none;
+}
 
-    .boxes{
-        justify-content: space-between;
-    }
-    .more p{
-        left: 86%;
+@media (max-width:125rem){
+    .lastCard{
+        display: block;
     }
 }
 
-@media (max-width:64rem)
-{
+@media (max-width:90rem){
     .main{
-        width: 64rem;
-        height: 40rem;
-        padding-inline: 2.4rem;
+        padding-inline: 3rem;
     }
 
-    .boxes{
-        width: 64rem;
-        /* height: 26rem; */
-        justify-content: space-between;
-    }
     .more{
-        /* width: 64rem; */
+        padding: 1.5rem;
     }
 
     .more p{
-        font-size: 1.3rem;
+        font-size: 2rem;
+        line-height: 1.9rem;
+        height: 2.5rem;
+        left: 72%;
+    }
+}
+
+@media (max-width:64rem){
+    .main{
+        padding-inline: 2rem;
+    }
+
+    .more{
+        padding: 1rem;
+    }
+
+    .more p{
+        font-size: 1.5rem;
+        line-height: 1.4rem;
         height: 2rem;
-        width: 4rem;
-        /* left: 60rem; */
+        left: 82%;
+    }
+}
+
+
+@media (max-width:768px){
+    .main{
+        padding-inline: 2rem;
+    }
+
+    .more{
+        padding: 1rem;
+    }
+
+    .more p{
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+        height: 1.6rem;
+        left: 91%;
     }
 }

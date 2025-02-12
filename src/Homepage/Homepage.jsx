@@ -6,9 +6,13 @@ import Partners from './Pages/Partners/Partners'
 import Articles from './Pages/Articles_and_News/Articles'
 import Info from './Pages/Info/Info'
 import Header from '../Header/Header'
+import { useEffect } from 'react'
 
 
 function Homepage() {
+  useEffect( ()=>{
+    window.scrollTo(0,0);
+  },[] );
   return (
     <>
       <Header/>
@@ -17,7 +21,7 @@ function Homepage() {
       <Service/>
       <Process/>  
       <Partners/>
-      {/* <Articles/> */}
+      <Articles/>
       <Info/>
     </>
   )
